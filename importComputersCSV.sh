@@ -49,6 +49,10 @@
 # - Create a CSV file or export it from a 3rd party Asset Manager
 # - Complete settings below, or leave empty to get prompts in Terminal
 # - WARNING: Make sure the group does not exist already. Existing assignments wil be overwritten ! (unless desired)
+#
+# Also, changing the assignment or group settings in Jamf Pro will remove the imported computers from the group.
+# (Jamf Pro only sees enrolled devices in the "Assignments tab".
+# Hence editing the group while not being able to select "imported devices" will clear the membership list.)
 ############################################################################################################################
 
 # SETTINGS
